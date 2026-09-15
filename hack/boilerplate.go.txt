@@ -1,0 +1,10 @@
+/*
+Copyright 2026 BSSConnects. All rights reserved.
+
+This file is part of Nawat and is proprietary and confidential.
+Unauthorized copying, modification, distribution or use of this file, via any
+medium, is strictly prohibited. Use is permitted only under the terms of a
+written licence agreement with BSSConnects.
+
+SPDX-License-Identifier: LicenseRef-BSSConnects-Proprietary
+*/
