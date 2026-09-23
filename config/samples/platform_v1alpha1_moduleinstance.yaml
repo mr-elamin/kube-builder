@@ -1,0 +1,9 @@
+apiVersion: platform.bssconnects.io/v1alpha1
+kind: ModuleInstance
+metadata:
+  labels:
+    app.kubernetes.io/name: nawat
+    app.kubernetes.io/managed-by: kustomize
+  name: moduleinstance-sample
+spec:
+  # TODO(user): Add fields here

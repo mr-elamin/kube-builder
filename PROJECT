@@ -9,4 +9,14 @@ layout:
 multigroup: true
 projectName: nawat
 repo: github.com/mr-elamin/kubebuilder-practice
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: bssconnects.io
+  group: platform
+  kind: ModuleInstance
+  path: github.com/mr-elamin/kubebuilder-practice/api/platform/v1alpha1
+  version: v1alpha1
 version: "3"

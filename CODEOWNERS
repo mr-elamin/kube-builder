@@ -1,0 +1,13 @@
+# Last matching pattern wins — so order matters, most specific goes last.
+# This file can be placed in the root of the repo or in .github/ or in docs/
+# If you enable "Require review from Code Owners",
+# GitHub automatically requests review from the matching owners when a PR touches those paths
+
+*                       @bssconnects/platform-core     # fallback owner for everything
+
+/schemas/               @bssconnects/architects        # the contract — guarded
+/api/                   @bssconnects/architects @bssconnects/platform-core
+/deploy/policies/       @bssconnects/security          # Rego: a bug here is a data breach
+/cmd/bssconnectsctl/    @bssconnects/devex
+/web/                   @bssconnects/frontend
+*.md                    @mr-elamin                     # docs
